@@ -266,3 +266,114 @@ footer .f-menu {
     text-align: center;
     margin: 100px;
 }
+
+
+
+@media only screen and (max-width: 360px) {
+
+    * {
+        padding: 0%;
+        margin: 0%;
+        overflow-x: hidden;
+    }
+
+    nav>ul {
+        display: block;
+    }
+
+    .header {
+        display: block;
+        padding: 0px;
+    }
+
+    .g-img {
+        margin-top: 50px;
+
+    }
+
+    .game {
+        display: block;
+
+    }
+
+    .t-img {
+        display: block;
+    }
+
+
+
+    /* body section 1 */
+    section {
+        display: block;
+        padding: 0px;
+    }
+
+
+
+
+    /* section 2 */
+    .s2-img {
+        width: 350px;
+        height: 200px;
+    }
+
+
+
+    /* section-3 */
+
+    .square-img img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .square-img {
+        position: relative;
+        padding-left: 30px;
+    }
+
+    /* section-4 */
+    .section-4 div {
+        display: block;
+
+    }
+
+    .big-img {
+        width: 304.833px;
+        height: 300px;
+    }
+
+    .small-img {
+        width: 318.5px;
+        height: 365.083px;
+
+    }
+
+    /* header */
+    footer {
+
+        background: #0B0223;
+        width: auto;
+        height: 536px;
+        flex-shrink: 0;
+    }
+
+    .game-1 {
+        text-align: center;
+    }
+
+    .f-menu {
+        text-align: center;
+        color: #FFF;
+    }
+
+    footer .f-menu {
+        margin: 0px;
+        justify-content: space-between;
+    }
+
+    .svg-menu {
+        text-align: center;
+        margin: 100px;
+    }
+
+}
